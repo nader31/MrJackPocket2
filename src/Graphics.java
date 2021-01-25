@@ -22,7 +22,7 @@ public class Graphics {
 
         JPanel northPanel = new JPanel();
         JButton northButton = new JButton("Entrer"); //ajoute un bouton
-//        northButton.addActionListener(MrJackActionListener.createActionListener(northButton));
+//        northButton.addActionListener(MrJackActionListener.createActionListener(northButton)); 1
         northPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
         northPanel.add(new JTextField("Entrez votre nom"));
         northPanel.add(northButton);
